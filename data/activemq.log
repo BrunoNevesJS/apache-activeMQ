@@ -1,0 +1,21 @@
+2019-11-29 20:43:04,317 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7ca0c4f8: startup date [Fri Nov 29 20:43:04 BRST 2019]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2019-11-29 20:43:07,182 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\julio\OneDrive\Área de Trabalho\apache-activemq-5.15.10\bin\win32\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-11-29 20:43:08,448 | INFO  | PListStore:[C:\Users\julio\OneDrive\Área de Trabalho\apache-activemq-5.15.10\bin\win32\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2019-11-29 20:43:08,759 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-78QBNAR1-51452-1575067388483-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-11-29 20:43:08,797 | INFO  | Listening for connections at: tcp://LAPTOP-78QBNAR1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-11-29 20:43:08,797 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-11-29 20:43:08,812 | INFO  | Listening for connections at: amqp://LAPTOP-78QBNAR1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-11-29 20:43:08,812 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-11-29 20:43:08,816 | INFO  | Listening for connections at: stomp://LAPTOP-78QBNAR1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-11-29 20:43:08,817 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-11-29 20:43:08,821 | INFO  | Listening for connections at: mqtt://LAPTOP-78QBNAR1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2019-11-29 20:43:08,821 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-11-29 20:43:08,866 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2019-11-29 20:43:09,113 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2019-11-29 20:43:09,512 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1a5ff7ab{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2019-11-29 20:43:09,710 | INFO  | Listening for connections at ws://LAPTOP-78QBNAR1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2019-11-29 20:43:09,711 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2019-11-29 20:43:09,712 | INFO  | Apache ActiveMQ 5.15.10 (localhost, ID:LAPTOP-78QBNAR1-51452-1575067388483-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-11-29 20:43:09,713 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2019-11-29 20:43:11,578 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2019-11-29 20:43:11,578 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
